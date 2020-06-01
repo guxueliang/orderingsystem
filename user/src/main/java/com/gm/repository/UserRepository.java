@@ -1,6 +1,6 @@
 package com.gm.repository;
 
-import com.gm.entiry.User;
+import com.gm.entity.User;
 
 import java.util.List;
 

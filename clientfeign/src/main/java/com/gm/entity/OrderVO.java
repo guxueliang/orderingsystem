@@ -1,13 +1,13 @@
-package com.gm.entiry;
+package com.gm.entity;
 
 import lombok.Data;
 
 import java.util.List;
 
 @Data
-public class UserVO {
+public class OrderVO {
     private int code;
     private String msg;
     private int count;
-    private List<User> data;
+    private List<Order> data;
 }

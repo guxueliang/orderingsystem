@@ -1,7 +1,7 @@
 package com.gm.controller;
 
-import com.gm.entiry.User;
-import com.gm.entiry.UserVO;
+import com.gm.entity.User;
+import com.gm.entity.UserVO;
 import com.gm.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;

@@ -2,7 +2,7 @@
 <!DOCTYPE mapper  PUBLIC "-//mybatis.org//DTD mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.gm.repository.UserRepository">
-    <select id="findAll" resultType="com.gm.User">
+    <select id="findAll" resultType="com.gm.entity.User">
         select * from t_user order by id limit #{param1},#{param2}
     </select>
 
@@ -10,7 +10,7 @@
         select count(*) from t_user;
     </select>
 
-    <insert id="save" parameterType="com.gm.User">
+    <insert id="save" parameterType="com.gm.entity.User">
         insert into t_user(username,password,nickname,gender,telephone,registerdate,address) values(#{username},#{password},#{nickname},#{gender},#{telephone},#{registerdate},#{address})
     </insert>
 
