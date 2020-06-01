@@ -5,7 +5,7 @@ spring:
     name: user
   datasource:
     name: orderingsystem
-    url: jdbc:mysql://172.16/55.163:3306/ordering?useUnicode=true&characterEncoding=UTF-8
+    url: jdbc:mysql://172.16.55.163:3306/ordering?useUnicode=true&characterEncoding=UTF-8
     username: trainning
     password: trainning
 eureka:
